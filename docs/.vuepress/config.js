@@ -18,6 +18,7 @@ module.exports = {
     type: "blog",
     authorAvatar: "/img/xiaoxin.jpg",
     logo: "/img/hero.png",
+    subSidebar: 'auto',
     smoothScroll: true,
     // 博客配置
     blogConfig: {
@@ -31,7 +32,7 @@ module.exports = {
       },
     },
     nav,
-    subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+    
     friendLink,
     // 全局作者名字
     author: '大水',
